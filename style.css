@@ -9,13 +9,13 @@ body {
 /* Body Header */
 
 #body-header {
-    height: 65vh;
+    height: 450px;
     opacity: 1;
     background : linear-gradient(50deg, #204683 0%, #342b3b 74%);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    padding-top: 1.2rem;
+    padding-top: 2rem;
 }
 
 
@@ -30,9 +30,10 @@ body {
 
 .horizontal-list li {
     display: inline-block;
+    letter-spacing: 0.1rem;
     margin: 0px 8px 8px 0px;
     font-weight: 100;
-    font-size: 0.9rem;
+    font-size: 1.6rem;
 }
 
 .horizontal-list li a {
@@ -58,12 +59,12 @@ body {
 /* Name and Social Icons*/
 
 #name-social-container {
-    margin-top: 20vh;
+    margin-top: 120px;
 }
 
 #my-name {
-    font-size: 3rem;
-    letter-spacing: 0.1rem;
+    font-size: 4rem;
+    letter-spacing: 0.2rem;
     color: white;
     font-weight: 700;
     margin-bottom: 0.5rem;
@@ -71,7 +72,8 @@ body {
 
 .social-icons li a i {
     padding: 10px;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    margin: 10px;
     border-radius: 50%;
 }
 
@@ -144,7 +146,7 @@ section:nth-child(2n + 1) {
     text-align: justify;
     color: grey;
     line-height: 28px;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     margin: auto;
 }
 
@@ -262,7 +264,7 @@ section:nth-child(2n + 1) {
 }
 
 .experience-designation {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
 .experience-company-name {
@@ -276,7 +278,7 @@ section:nth-child(2n + 1) {
     color: #9e9b9b;
     font-weight: 100;
     color: grey;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 .experience-description {
@@ -440,7 +442,7 @@ textarea {
 }
 
 #contact .social-icons li a i {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin: 40px 10px 10px;
     padding: 10px 14px 20px 10px;
 
