@@ -306,7 +306,7 @@ section:nth-child(2n + 1) {
 }
 
 .portfolio-image-container {
-    max-width: 300px;
+    max-width: 230px;
     overflow: hidden;
     margin: 30px;
     background-size: cover;
@@ -327,7 +327,7 @@ section:nth-child(2n + 1) {
     height: 100%;
     color: transparent;
     text-align: center;
-    padding: 10px;
+    padding: 4px;
 }
 
 .portfolio-image-container:hover {
@@ -337,7 +337,7 @@ section:nth-child(2n + 1) {
 .portfolio-image-container:hover .portfolio-details {
     background-color: #ffffffc4;
     color: rgb(0, 0, 0);
-    font-size: 20px;
+    font-size: 14px;
 }
 
 
