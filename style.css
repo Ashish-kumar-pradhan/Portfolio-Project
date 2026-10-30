@@ -505,6 +505,34 @@ button:focus {
     background-color: #93738c;
 }
 
+.mb-red {
+    background-color: #e74c3c;
+}
+
+.mb-green {
+    background-color: #27ae60;
+}
+
+.mb-yellow {
+    background-color: #f39c12;
+}
+
+.mb-pink {
+    background-color: #e91e63;
+}
+
+.mb-cyan {
+    background-color: #00bcd4;
+}
+
+.mb-indigo {
+    background-color: #3f51b5;
+}
+
+.mb-lime {
+    background-color: #8bc34a;
+}
+
 
 
 /*Percentage Classes */
