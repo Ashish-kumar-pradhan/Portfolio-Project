@@ -10,6 +10,10 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
   </head>
 
   <body>
@@ -466,20 +470,22 @@
                 name="name"
                 type="text"
                 placeholder="Your Name"
+                required
               />
               <input
                 id="input-email"
-                name="input-email"
-                type="text"
+                name="email"
+                type="email"
                 required
                 placeholder="Your Email"
               />
               <textarea
                 id="input-message"
-                name="input-message"
+                name="message"
                 rows="2"
                 cols="40"
                 placeholder="Message"
+                required
               ></textarea>
               <button class="sub-btn" type="submit">SEND MESSAGE</button>
             </form>
