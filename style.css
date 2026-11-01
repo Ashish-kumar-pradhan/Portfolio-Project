@@ -228,16 +228,22 @@ section:nth-child(2n + 1) {
 
 .timeline-container {
     padding: 8px;
+    margin-left: 60px;
 }
 
 .timeline-logo {
     position: absolute;
     width: 50px;
     overflow: hidden;
+    top: 10px;
 }
 
 .timeline-logo > img {
     width: 100%;
+}
+
+.project-heading-dark {
+    color: #000000 !important;
 }
 
 #timeline-divider {
@@ -323,6 +329,7 @@ section:nth-child(2n + 1) {
     transition: all 0.5s ease-in-out;
     position: absolute;
     top: 0;
+    pointer-events: none;
     left: 0;
     height: 100%;
     color: transparent;
